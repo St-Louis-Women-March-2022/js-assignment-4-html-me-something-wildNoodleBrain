@@ -15,11 +15,11 @@ html {
 
 }
 
-.mainHeading {
+#mainHeading {
     color: red;
 }
 
-#funParagraph{
+.funParagraph{
     color: green;
 }
 body {
@@ -32,10 +32,8 @@ body {
     font-family: "Garamond", serif;
     font-size: 20px;
 
-    margin: 8px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-right: 8px;
+    margin: 8px 8px 8px 8px;
+
 }
 style {
     background-image: backgroundBloodCells;

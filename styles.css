@@ -1,1 +1,68 @@
-/* Write your CSS here! */
+html {
+    margin: 0;
+    padding: 0;
+   
+}
+.row {
+    display: grid;
+    grid-template-columns:
+        auto auto auto;
+}
+
+.column {
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+.mainHeading {
+    color: red;
+}
+
+#funParagraph{
+    color: green;
+}
+body {
+    font: 100% Garamond, serif;
+    line-height: 1.99999;
+    height: 400px;
+    width: 100%;
+    background-image: url(images/backgroundBloodCells.jpg);
+    
+    font-family: "Garamond", serif;
+    font-size: 20px;
+
+    margin: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+style {
+    background-image: backgroundBloodCells;
+    opacity: 0.1;
+}
+p {
+   color:black; 
+}
+h1 {
+    color: rgb(1, 82, 1);
+    text-align: center;
+}
+#box1 {
+    width:80%;
+    border: 92px lavenderblush;
+    margin: 0 auto;
+    color: #fff;
+    background: lightblue;
+    opacity: 0.8;
+    border-radius: 95px
+}
+#box2 {
+    width:80%;
+    border: 92px lavenderblush;
+    margin: 0 auto;
+    color: #fff;
+    background: lightblue;
+    opacity: 0.8;
+    border-radius: 95px
+}
